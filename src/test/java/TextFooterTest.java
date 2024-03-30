@@ -3,10 +3,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import pageObjcet.HomePage;
+import pageobjcet.HomePage;
 
 import static org.junit.Assert.assertEquals;
-import static pageObjcet.BASE_URL.BASE_URL;
+import static pageobjcet.BASE_URL.BASE_URL;
 
 @RunWith(Parameterized.class)
 public class TextFooterTest {

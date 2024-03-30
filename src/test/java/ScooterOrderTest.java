@@ -3,12 +3,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import pageObjcet.HomePage;
-import pageObjcet.OrderPage;
-import pageObjcet.RentPage;
+import pageobjcet.HomePage;
+import pageobjcet.OrderPage;
+import pageobjcet.RentPage;
 
 import static org.junit.Assert.assertTrue;
-import static pageObjcet.BASE_URL.BASE_URL;
+import static pageobjcet.BASE_URL.BASE_URL;
 
 @RunWith(Parameterized.class)
 public class ScooterOrderTest {
@@ -50,7 +50,7 @@ public class ScooterOrderTest {
 
 
     @Test
-    public void Order(){
+    public void order (){
         WebDriver driver = driverRule.getDriver();
         driver.get(BASE_URL);
 
